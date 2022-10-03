@@ -10788,14 +10788,13 @@ body {
 
 .sphere {
   position: absolute;
-  top: -80%;
+  top: -50%;
   left: 50%;
-  transform: translate(-50%, -80%);
-  width: 300px;
-  height: 300px;
+  transform: translate(-50%, -50%);
+  width: 10vw;
+  height: 10vw;
   background: radial-gradient(circle at 10px 10px, #49e8ed, #41d0d5, #3ab9bd, #33a2a5, #2b8b8e, #247476);
   border-radius: 50%;
-  animation: up-and-down 5s ease-in-out infinite alternate;
 }
 .sphere:before {
   content: "";
